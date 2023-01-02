@@ -1,7 +1,6 @@
 # Ujian-PWeb-LABTI
 Ujian LABTI Pemrograman Web
 
-*Note
 ## Folder Back
 1. npm install to add folder node modules
 2. add file .env 
