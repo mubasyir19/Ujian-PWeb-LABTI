@@ -1,6 +1,8 @@
 # Ujian-PWeb-LABTI
 Ujian LABTI Pemrograman Web
 
+## <ins>Guides :</ins>
+
 ## Folder Back
 1. npm install to generate folder node modules
 2. create file .env, then add this: <br />
