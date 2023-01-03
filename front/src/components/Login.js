@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -57,6 +57,9 @@ export default function Login() {
                 </div>
                 <div className='field mt-5'>
                   <button className='button is-success is-fullwidth'>Login</button>
+                </div>
+                <div className='.has-text-centered'>
+                  dont have account? <Link to={`/register`}>Sign Up</Link>
                 </div>
               </form>
             </div>
